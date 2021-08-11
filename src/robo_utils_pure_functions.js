@@ -63,5 +63,20 @@ function adjectify(rank, words, breaks) {
         return 'significantly ' + words[1] + ' than';
     }
 }
+function remainsBecame(rank1, rank2, breaks) {
 
-export { uncap1, uncap1ofEng, regionThe, ordinal_suffix_of, adjectify };
+    if (rank2 < breaks[2] & rank1 > breaks[2]) {
+        return 'became';
+    } else if (rank2 < breaks[4] & rank1 > breaks[4]) {
+        return 'became';
+    } else if (rank2 < breaks[6] & (rank1 > breaks[6]|rank1 < breaks[4])) {
+        return 'became';
+    } else if (rank2 > breaks[8] & rank1 < breaks[8]) {
+        return 'became';
+    } else if (rank2 > breaks[6] & rank1 < breaks[6]) {
+        return 'became';
+    } else {
+        return 'remains'
+    }
+}
+export { uncap1, uncap1ofEng, regionThe, ordinal_suffix_of, adjectify, remainsBecame };

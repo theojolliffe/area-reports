@@ -11,6 +11,21 @@ body {
 	box-sizing: border-box;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
+div.section-2 > div:nth-child(1) > p:nth-child(2) {
+	font-weight: bold !important;
+}
+div.section-2 > div:nth-child(1) > p:nth-child(1) {
+	display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+div.section-2 > div:nth-child(3) > p:nth-child(1) {
+	font-size: 1.8em
+}
 
 a {
 	color: rgb(0,100,200);

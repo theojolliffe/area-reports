@@ -6,6 +6,9 @@ import { terser } from 'rollup-plugin-terser';
 import dsv from '@rollup/plugin-dsv';
 import json from '@rollup/plugin-json';
 import css from 'rollup-plugin-css-only';
+import pug2svelte from 'pug2svelte';
+import sveltePreprocess from 'svelte-preprocess';
+import pug from 'rollup-plugin-pug';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -39,13 +42,21 @@ export default {
 		file: 'public/build/bundle.js'
 	},
 	plugins: [
+		pug({
+			locals: { message: 'Hello World' }
+		  }),	  
 		dsv(),
 		json(),
 		svelte({
+			preprocess: sveltePreprocess(),
 			compilerOptions: {
 				// enable run-time checks when not in production
 				dev: !production
-			}
+			},
+			extensions: ['.svelte'],
+			preprocess: {
+			  markup: ({ content }) => ({ code: pug2svelte(content) })
+			},			
 		}),
 		// we'll extract any component CSS out into
 		// a separate file - better for performance

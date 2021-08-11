@@ -1007,339 +1007,339 @@ W06000021,Monmouthshire,69.71,74.14,4.43,travel_car_van,Wales
 W06000022,Newport,74.48,73.61,-0.87,travel_car_van,Wales
 W06000023,Powys,60.46,68.53,8.07,travel_car_van,Wales
 W06000024,Merthyr Tydfil,72.09,76.42,4.33,travel_car_van,Wales
-E06000001,Hartlepool,14.95,11.31,-3.64,age10yr_30-39,North East
-E06000002,Middlesbrough,14.39,11.87,-2.52,age10yr_30-39,North East
-E06000003,Redcar and Cleveland,14.35,10.83,-3.52,age10yr_30-39,North East
-E06000004,Stockton-on-Tees,15.51,12.24,-3.27,age10yr_30-39,North East
-E06000005,Darlington,15.1,12.58,-2.52,age10yr_30-39,North East
-E06000006,Halton,14.92,12.7,-2.22,age10yr_30-39,North West
-E06000007,Warrington,16.73,13.01,-3.72,age10yr_30-39,North West
-E06000008,Blackburn with Darwen,15.08,13.59,-1.49,age10yr_30-39,North West
-E06000009,Blackpool,14.67,11.52,-3.15,age10yr_30-39,North West
-E06000010,"Kingston upon Hull, City of",15.16,13.47,-1.69,age10yr_30-39,Yorkshire and The Humber
-E06000011,East Riding of Yorkshire,13.99,10.76,-3.23,age10yr_30-39,Yorkshire and The Humber
-E06000012,North East Lincolnshire,14.89,11.57,-3.32,age10yr_30-39,Yorkshire and The Humber
-E06000013,North Lincolnshire,14.93,11.52,-3.41,age10yr_30-39,Yorkshire and The Humber
-E06000014,York,15.25,12.65,-2.6,age10yr_30-39,Yorkshire and The Humber
-E06000015,Derby,15.41,13.38,-2.03,age10yr_30-39,East Midlands
-E06000016,Leicester,15.04,14.32,-0.72,age10yr_30-39,East Midlands
-E06000017,Rutland,14.41,10.7,-3.71,age10yr_30-39,East Midlands
-E06000018,Nottingham,15.4,13.7,-1.7,age10yr_30-39,East Midlands
-E06000019,"Herefordshire, County of",13.98,10.91,-3.07,age10yr_30-39,West Midlands
-E06000020,Telford and Wrekin,16.31,12.89,-3.42,age10yr_30-39,West Midlands
-E06000021,Stoke-on-Trent,15.05,12.83,-2.22,age10yr_30-39,West Midlands
-E06000022,Bath and North East Somerset,14.4,11.48,-2.92,age10yr_30-39,South West
-E06000023,"Bristol, City of",15.84,15.61,-0.23,age10yr_30-39,South West
-E06000024,North Somerset,14.28,11.5,-2.78,age10yr_30-39,South West
-E06000025,South Gloucestershire,16.92,12.66,-4.26,age10yr_30-39,South West
-E06000026,Plymouth,15.27,12.07,-3.2,age10yr_30-39,South West
-E06000027,Torbay,13.1,10.08,-3.02,age10yr_30-39,South West
-E06000030,Swindon,17.51,15.05,-2.46,age10yr_30-39,South West
-E06000031,Peterborough,15.91,14.72,-1.19,age10yr_30-39,East
-E06000032,Luton,16.12,14.83,-1.29,age10yr_30-39,East
-E06000033,Southend-on-Sea,15.03,13.73,-1.3,age10yr_30-39,East
-E06000034,Thurrock,16.89,15.22,-1.67,age10yr_30-39,East
-E06000035,Medway,16.28,13.09,-3.19,age10yr_30-39,South East
-E06000036,Bracknell Forest,18.87,15.2,-3.67,age10yr_30-39,South East
-E06000037,West Berkshire,16.51,13.27,-3.24,age10yr_30-39,South East
-E06000038,Reading,17.27,17.6,0.33,age10yr_30-39,South East
-E06000039,Slough,17.59,18.41,0.82,age10yr_30-39,South East
-E06000040,Windsor and Maidenhead,16.04,14.05,-1.99,age10yr_30-39,South East
-E06000041,Wokingham,16.43,13.78,-2.65,age10yr_30-39,South East
-E06000042,Milton Keynes,17.04,16.26,-0.78,age10yr_30-39,South East
-E06000043,Brighton and Hove,17.83,16.0,-1.83,age10yr_30-39,South East
-E06000044,Portsmouth,16.17,13.29,-2.88,age10yr_30-39,South East
-E06000045,Southampton,14.23,14.47,0.24,age10yr_30-39,South East
-E06000046,Isle of Wight,12.64,9.87,-2.77,age10yr_30-39,South East
-E06000047,County Durham,15.05,11.42,-3.63,age10yr_30-39,North East
-E06000049,Cheshire East,15.14,11.8,-3.34,age10yr_30-39,North West
-E06000050,Cheshire West and Chester,15.34,11.95,-3.39,age10yr_30-39,North West
-E06000051,Shropshire,14.27,10.84,-3.43,age10yr_30-39,West Midlands
-E06000052,Cornwall,13.06,10.7,-2.36,age10yr_30-39,South West
-E06000053,Isles of Scilly,13.86,11.67,-2.19,age10yr_30-39,South West
-E06000054,Wiltshire,15.74,11.78,-3.96,age10yr_30-39,South West
-E06000055,Bedford,15.49,13.33,-2.16,age10yr_30-39,East
-E06000056,Central Bedfordshire,16.9,13.16,-3.74,age10yr_30-39,East
-E06000057,Northumberland,14.12,10.77,-3.35,age10yr_30-39,North East
-E06000058,"Bournemouth, Christchurch and Poole",14.13,13.01,-1.12,age10yr_30-39,South West
-E06000059,Dorset,12.69,9.61,-3.08,age10yr_30-39,South West
-E06000060,Buckinghamshire,15.31,12.63,-2.68,age10yr_30-39,South East
-E07000008,Cambridge,15.12,16.03,0.91,age10yr_30-39,East
-E07000009,East Cambridgeshire,15.94,13.97,-1.97,age10yr_30-39,East
-E07000010,Fenland,14.58,11.51,-3.07,age10yr_30-39,East
-E07000011,Huntingdonshire,16.54,12.89,-3.65,age10yr_30-39,East
-E07000012,South Cambridgeshire,15.7,13.6,-2.1,age10yr_30-39,East
-E07000026,Allerdale,14.33,10.59,-3.74,age10yr_30-39,North West
-E07000027,Barrow-in-Furness,14.99,11.28,-3.71,age10yr_30-39,North West
-E07000028,Carlisle,14.52,11.91,-2.61,age10yr_30-39,North West
-E07000029,Copeland,15.22,11.18,-4.04,age10yr_30-39,North West
-E07000030,Eden,14.27,9.97,-4.3,age10yr_30-39,North West
-E07000031,South Lakeland,13.49,9.93,-3.56,age10yr_30-39,North West
-E07000032,Amber Valley,15.51,11.96,-3.55,age10yr_30-39,East Midlands
-E07000033,Bolsover,15.88,11.91,-3.97,age10yr_30-39,East Midlands
-E07000034,Chesterfield,15.33,12.22,-3.11,age10yr_30-39,East Midlands
-E07000035,Derbyshire Dales,13.8,9.47,-4.33,age10yr_30-39,East Midlands
-E07000036,Erewash,16.35,12.38,-3.97,age10yr_30-39,East Midlands
-E07000037,High Peak,15.89,11.29,-4.6,age10yr_30-39,East Midlands
-E07000038,North East Derbyshire,14.24,10.74,-3.5,age10yr_30-39,East Midlands
-E07000039,South Derbyshire,16.42,13.39,-3.03,age10yr_30-39,East Midlands
-E07000040,East Devon,11.29,8.97,-2.32,age10yr_30-39,South West
-E07000041,Exeter,14.66,13.08,-1.58,age10yr_30-39,South West
-E07000042,Mid Devon,13.77,10.54,-3.23,age10yr_30-39,South West
-E07000043,North Devon,12.86,10.42,-2.44,age10yr_30-39,South West
-E07000044,South Hams,12.78,8.71,-4.07,age10yr_30-39,South West
-E07000045,Teignbridge,13.5,9.87,-3.63,age10yr_30-39,South West
-E07000046,Torridge,12.56,9.73,-2.83,age10yr_30-39,South West
-E07000047,West Devon,12.59,9.61,-2.98,age10yr_30-39,South West
-E07000061,Eastbourne,13.14,11.7,-1.44,age10yr_30-39,South East
-E07000062,Hastings,14.43,12.13,-2.3,age10yr_30-39,South East
-E07000063,Lewes,12.97,10.27,-2.7,age10yr_30-39,South East
-E07000064,Rother,11.05,8.05,-3.0,age10yr_30-39,South East
-E07000065,Wealden,13.24,9.52,-3.72,age10yr_30-39,South East
-E07000066,Basildon,15.89,13.46,-2.43,age10yr_30-39,East
-E07000067,Braintree,16.15,12.76,-3.39,age10yr_30-39,East
-E07000068,Brentwood,14.84,12.25,-2.59,age10yr_30-39,East
-E07000069,Castle Point,13.74,10.52,-3.22,age10yr_30-39,East
-E07000070,Chelmsford,15.71,13.26,-2.45,age10yr_30-39,East
-E07000071,Colchester,15.51,13.29,-2.22,age10yr_30-39,East
-E07000072,Epping Forest,15.79,12.75,-3.04,age10yr_30-39,East
-E07000073,Harlow,16.87,14.21,-2.66,age10yr_30-39,East
-E07000074,Maldon,14.78,10.61,-4.17,age10yr_30-39,East
-E07000075,Rochford,14.83,11.4,-3.43,age10yr_30-39,East
-E07000076,Tendring,12.04,9.01,-3.03,age10yr_30-39,East
-E07000077,Uttlesford,14.98,11.76,-3.22,age10yr_30-39,East
-E07000078,Cheltenham,15.56,13.83,-1.73,age10yr_30-39,South West
-E07000079,Cotswold,13.93,10.17,-3.76,age10yr_30-39,South West
-E07000080,Forest of Dean,14.17,10.03,-4.14,age10yr_30-39,South West
-E07000081,Gloucester,16.82,13.46,-3.36,age10yr_30-39,South West
-E07000082,Stroud,14.43,11.2,-3.23,age10yr_30-39,South West
-E07000083,Tewkesbury,14.94,11.84,-3.1,age10yr_30-39,South West
-E07000084,Basingstoke and Deane,17.08,14.2,-2.88,age10yr_30-39,South East
-E07000085,East Hampshire,14.63,10.81,-3.82,age10yr_30-39,South East
-E07000086,Eastleigh,15.66,13.17,-2.49,age10yr_30-39,South East
-E07000087,Fareham,15.12,11.17,-3.95,age10yr_30-39,South East
-E07000088,Gosport,15.58,12.57,-3.01,age10yr_30-39,South East
-E07000089,Hart,16.14,13.46,-2.68,age10yr_30-39,South East
-E07000090,Havant,13.79,10.41,-3.38,age10yr_30-39,South East
-E07000091,New Forest,13.11,9.92,-3.19,age10yr_30-39,South East
-E07000092,Rushmoor,18.29,16.1,-2.19,age10yr_30-39,South East
-E07000093,Test Valley,15.72,11.77,-3.95,age10yr_30-39,South East
-E07000094,Winchester,13.97,11.77,-2.2,age10yr_30-39,South East
-E07000095,Broxbourne,16.25,13.27,-2.98,age10yr_30-39,East
-E07000096,Dacorum,16.23,13.71,-2.52,age10yr_30-39,East
-E07000098,Hertsmere,15.89,13.21,-2.68,age10yr_30-39,East
-E07000099,North Hertfordshire,16.47,13.86,-2.61,age10yr_30-39,East
-E07000102,Three Rivers,15.27,13.21,-2.06,age10yr_30-39,East
-E07000103,Watford,18.34,17.12,-1.22,age10yr_30-39,East
-E07000105,Ashford,15.58,11.96,-3.62,age10yr_30-39,South East
-E07000106,Canterbury,12.69,10.01,-2.68,age10yr_30-39,South East
-E07000107,Dartford,17.18,14.57,-2.61,age10yr_30-39,South East
-E07000108,Dover,13.79,10.8,-2.99,age10yr_30-39,South East
-E07000109,Gravesham,15.47,12.79,-2.68,age10yr_30-39,South East
-E07000110,Maidstone,15.23,12.76,-2.47,age10yr_30-39,South East
-E07000111,Sevenoaks,14.45,11.87,-2.58,age10yr_30-39,South East
-E07000112,Folkestone and Hythe,13.88,10.96,-2.92,age10yr_30-39,South East
-E07000113,Swale,15.35,11.98,-3.37,age10yr_30-39,South East
-E07000114,Thanet,12.9,10.55,-2.35,age10yr_30-39,South East
-E07000115,Tonbridge and Malling,15.97,12.46,-3.51,age10yr_30-39,South East
-E07000116,Tunbridge Wells,15.26,13.11,-2.15,age10yr_30-39,South East
-E07000117,Burnley,14.71,12.36,-2.35,age10yr_30-39,North West
-E07000118,Chorley,15.65,12.99,-2.66,age10yr_30-39,North West
-E07000119,Fylde,13.84,10.05,-3.79,age10yr_30-39,North West
-E07000120,Hyndburn,15.39,12.68,-2.71,age10yr_30-39,North West
-E07000121,Lancaster,13.71,10.85,-2.86,age10yr_30-39,North West
-E07000122,Pendle,14.16,12.61,-1.55,age10yr_30-39,North West
-E07000123,Preston,15.06,13.1,-1.96,age10yr_30-39,North West
-E07000124,Ribble Valley,14.95,10.01,-4.94,age10yr_30-39,North West
-E07000125,Rossendale,15.45,12.64,-2.81,age10yr_30-39,North West
-E07000126,South Ribble,15.36,12.4,-2.96,age10yr_30-39,North West
-E07000127,West Lancashire,14.32,10.58,-3.74,age10yr_30-39,North West
-E07000128,Wyre,13.29,9.55,-3.74,age10yr_30-39,North West
-E07000129,Blaby,16.24,12.25,-3.99,age10yr_30-39,East Midlands
-E07000130,Charnwood,14.59,11.67,-2.92,age10yr_30-39,East Midlands
-E07000131,Harborough,15.87,11.37,-4.5,age10yr_30-39,East Midlands
-E07000132,Hinckley and Bosworth,15.32,12.12,-3.2,age10yr_30-39,East Midlands
-E07000133,Melton,15.79,11.09,-4.7,age10yr_30-39,East Midlands
-E07000134,North West Leicestershire,15.83,12.42,-3.41,age10yr_30-39,East Midlands
-E07000135,Oadby and Wigston,14.39,10.9,-3.49,age10yr_30-39,East Midlands
-E07000136,Boston,13.46,11.98,-1.48,age10yr_30-39,East Midlands
-E07000137,East Lindsey,12.44,8.92,-3.52,age10yr_30-39,East Midlands
-E07000138,Lincoln,15.31,12.77,-2.54,age10yr_30-39,East Midlands
-E07000139,North Kesteven,15.29,11.09,-4.2,age10yr_30-39,East Midlands
-E07000140,South Holland,13.53,11.3,-2.23,age10yr_30-39,East Midlands
-E07000141,South Kesteven,14.98,11.54,-3.44,age10yr_30-39,East Midlands
-E07000142,West Lindsey,13.57,10.06,-3.51,age10yr_30-39,East Midlands
-E07000143,Breckland,13.94,10.98,-2.96,age10yr_30-39,East
-E07000144,Broadland,14.79,11.07,-3.72,age10yr_30-39,East
-E07000145,Great Yarmouth,13.58,10.42,-3.16,age10yr_30-39,East
-E07000146,King's Lynn and West Norfolk,13.54,10.65,-2.89,age10yr_30-39,East
-E07000147,North Norfolk,11.51,8.38,-3.13,age10yr_30-39,East
-E07000148,Norwich,15.07,14.72,-0.35,age10yr_30-39,East
-E07000149,South Norfolk,13.59,11.13,-2.46,age10yr_30-39,East
-E07000150,Corby,15.99,13.56,-2.43,age10yr_30-39,East Midlands
-E07000151,Daventry,15.98,11.56,-4.42,age10yr_30-39,East Midlands
-E07000152,East Northamptonshire,16.0,12.38,-3.62,age10yr_30-39,East Midlands
-E07000153,Kettering,15.9,13.57,-2.33,age10yr_30-39,East Midlands
-E07000154,Northampton,16.25,15.08,-1.17,age10yr_30-39,East Midlands
-E07000155,South Northamptonshire,16.1,11.95,-4.15,age10yr_30-39,East Midlands
-E07000156,Wellingborough,15.67,13.19,-2.48,age10yr_30-39,East Midlands
-E07000163,Craven,13.26,9.64,-3.62,age10yr_30-39,Yorkshire and The Humber
-E07000164,Hambleton,14.62,9.9,-4.72,age10yr_30-39,Yorkshire and The Humber
-E07000165,Harrogate,15.16,11.61,-3.55,age10yr_30-39,Yorkshire and The Humber
-E07000166,Richmondshire,15.03,11.0,-4.03,age10yr_30-39,Yorkshire and The Humber
-E07000167,Ryedale,13.17,9.31,-3.86,age10yr_30-39,Yorkshire and The Humber
-E07000168,Scarborough,12.53,9.52,-3.01,age10yr_30-39,Yorkshire and The Humber
-E07000169,Selby,15.76,11.91,-3.85,age10yr_30-39,Yorkshire and The Humber
-E07000170,Ashfield,16.11,12.54,-3.57,age10yr_30-39,East Midlands
-E07000171,Bassetlaw,15.49,11.49,-4.0,age10yr_30-39,East Midlands
-E07000172,Broxtowe,15.93,12.62,-3.31,age10yr_30-39,East Midlands
-E07000173,Gedling,15.47,12.27,-3.2,age10yr_30-39,East Midlands
-E07000174,Mansfield,15.45,12.28,-3.17,age10yr_30-39,East Midlands
-E07000175,Newark and Sherwood,14.9,11.32,-3.58,age10yr_30-39,East Midlands
-E07000176,Rushcliffe,15.77,12.18,-3.59,age10yr_30-39,East Midlands
-E07000177,Cherwell,17.87,14.0,-3.87,age10yr_30-39,South East
-E07000178,Oxford,15.02,14.8,-0.22,age10yr_30-39,South East
-E07000179,South Oxfordshire,16.66,12.49,-4.17,age10yr_30-39,South East
-E07000180,Vale of White Horse,15.35,12.59,-2.76,age10yr_30-39,South East
-E07000181,West Oxfordshire,16.32,12.54,-3.78,age10yr_30-39,South East
-E07000187,Mendip,14.76,10.42,-4.34,age10yr_30-39,South West
-E07000188,Sedgemoor,14.17,10.28,-3.89,age10yr_30-39,South West
-E07000189,South Somerset,14.02,10.61,-3.41,age10yr_30-39,South West
-E07000192,Cannock Chase,16.81,12.76,-4.05,age10yr_30-39,West Midlands
-E07000193,East Staffordshire,15.71,12.5,-3.21,age10yr_30-39,West Midlands
-E07000194,Lichfield,14.61,11.56,-3.05,age10yr_30-39,West Midlands
-E07000195,Newcastle-under-Lyme,14.44,11.58,-2.86,age10yr_30-39,West Midlands
-E07000196,South Staffordshire,14.51,10.31,-4.2,age10yr_30-39,West Midlands
-E07000197,Stafford,14.75,11.73,-3.02,age10yr_30-39,West Midlands
-E07000198,Staffordshire Moorlands,14.28,10.77,-3.51,age10yr_30-39,West Midlands
-E07000199,Tamworth,16.09,13.35,-2.74,age10yr_30-39,West Midlands
-E07000200,Babergh,13.62,10.65,-2.97,age10yr_30-39,East
-E07000202,Ipswich,15.06,14.31,-0.75,age10yr_30-39,East
-E07000203,Mid Suffolk,14.31,10.85,-3.46,age10yr_30-39,East
-E07000207,Elmbridge,16.51,14.25,-2.26,age10yr_30-39,South East
-E07000208,Epsom and Ewell,15.41,13.33,-2.08,age10yr_30-39,South East
-E07000209,Guildford,15.52,13.82,-1.7,age10yr_30-39,South East
-E07000210,Mole Valley,14.28,11.24,-3.04,age10yr_30-39,South East
-E07000211,Reigate and Banstead,16.3,14.36,-1.94,age10yr_30-39,South East
-E07000212,Runnymede,15.99,13.57,-2.42,age10yr_30-39,South East
-E07000213,Spelthorne,17.05,13.87,-3.18,age10yr_30-39,South East
-E07000214,Surrey Heath,16.86,13.01,-3.85,age10yr_30-39,South East
-E07000215,Tandridge,14.98,11.87,-3.11,age10yr_30-39,South East
-E07000216,Waverley,14.46,12.12,-2.34,age10yr_30-39,South East
-E07000217,Woking,17.22,16.03,-1.19,age10yr_30-39,South East
-E07000218,North Warwickshire,15.64,11.62,-4.02,age10yr_30-39,West Midlands
-E07000219,Nuneaton and Bedworth,15.59,12.83,-2.76,age10yr_30-39,West Midlands
-E07000220,Rugby,15.6,13.24,-2.36,age10yr_30-39,West Midlands
-E07000221,Stratford-on-Avon,14.38,10.62,-3.76,age10yr_30-39,West Midlands
-E07000222,Warwick,15.62,13.64,-1.98,age10yr_30-39,West Midlands
-E07000223,Adur,13.77,11.95,-1.82,age10yr_30-39,South East
-E07000224,Arun,12.78,10.23,-2.55,age10yr_30-39,South East
-E07000225,Chichester,12.31,9.95,-2.36,age10yr_30-39,South East
-E07000226,Crawley,17.0,16.2,-0.8,age10yr_30-39,South East
-E07000227,Horsham,15.31,11.37,-3.94,age10yr_30-39,South East
-E07000228,Mid Sussex,15.07,12.51,-2.56,age10yr_30-39,South East
-E07000229,Worthing,14.75,12.76,-1.99,age10yr_30-39,South East
-E07000234,Bromsgrove,14.67,11.07,-3.6,age10yr_30-39,West Midlands
-E07000235,Malvern Hills,12.51,9.1,-3.41,age10yr_30-39,West Midlands
-E07000236,Redditch,15.37,14.16,-1.21,age10yr_30-39,West Midlands
-E07000237,Worcester,17.64,14.14,-3.5,age10yr_30-39,West Midlands
-E07000238,Wychavon,14.88,10.54,-4.34,age10yr_30-39,West Midlands
-E07000239,Wyre Forest,14.75,11.36,-3.39,age10yr_30-39,West Midlands
-E07000240,St Albans,17.04,14.84,-2.2,age10yr_30-39,East
-E07000241,Welwyn Hatfield,14.73,12.63,-2.1,age10yr_30-39,East
-E07000242,East Hertfordshire,17.2,13.69,-3.51,age10yr_30-39,East
-E07000243,Stevenage,17.53,13.52,-4.01,age10yr_30-39,East
-E07000244,East Suffolk,13.27,10.1,-3.17,age10yr_30-39,East
-E07000245,West Suffolk,16.12,12.96,-3.16,age10yr_30-39,East
-E07000246,Somerset West and Taunton,13.34,10.46,-2.88,age10yr_30-39,South West
-E08000001,Bolton,15.33,12.91,-2.42,age10yr_30-39,North West
-E08000002,Bury,15.94,12.86,-3.08,age10yr_30-39,North West
-E08000003,Manchester,15.18,15.7,0.52,age10yr_30-39,North West
-E08000004,Oldham,15.24,12.65,-2.59,age10yr_30-39,North West
-E08000005,Rochdale,15.13,12.85,-2.28,age10yr_30-39,North West
-E08000006,Salford,15.17,13.92,-1.25,age10yr_30-39,North West
-E08000007,Stockport,15.94,12.6,-3.34,age10yr_30-39,North West
-E08000008,Tameside,16.42,12.79,-3.63,age10yr_30-39,North West
-E08000009,Trafford,16.08,13.88,-2.2,age10yr_30-39,North West
-E08000010,Wigan,15.97,12.74,-3.23,age10yr_30-39,North West
-E08000011,Knowsley,15.85,11.56,-4.29,age10yr_30-39,North West
-E08000012,Liverpool,14.56,13.1,-1.46,age10yr_30-39,North West
-E08000013,St. Helens,15.08,12.1,-2.98,age10yr_30-39,North West
-E08000014,Sefton,14.15,10.53,-3.62,age10yr_30-39,North West
-E08000015,Wirral,13.98,11.34,-2.64,age10yr_30-39,North West
-E08000016,Barnsley,15.87,11.9,-3.97,age10yr_30-39,Yorkshire and The Humber
-E08000017,Doncaster,15.06,12.13,-2.93,age10yr_30-39,Yorkshire and The Humber
-E08000018,Rotherham,15.32,11.83,-3.49,age10yr_30-39,Yorkshire and The Humber
-E08000019,Sheffield,15.26,12.81,-2.45,age10yr_30-39,Yorkshire and The Humber
-E08000021,Newcastle upon Tyne,14.69,12.4,-2.29,age10yr_30-39,North East
-E08000022,North Tyneside,15.16,13.36,-1.8,age10yr_30-39,North East
-E08000023,South Tyneside,14.76,11.44,-3.32,age10yr_30-39,North East
-E08000024,Sunderland,14.81,11.95,-2.86,age10yr_30-39,North East
-E08000025,Birmingham,14.94,14.03,-0.91,age10yr_30-39,West Midlands
-E08000026,Coventry,14.72,13.31,-1.41,age10yr_30-39,West Midlands
-E08000027,Dudley,15.4,12.09,-3.31,age10yr_30-39,West Midlands
-E08000028,Sandwell,15.61,13.76,-1.85,age10yr_30-39,West Midlands
-E08000029,Solihull,14.62,11.16,-3.46,age10yr_30-39,West Midlands
-E08000030,Walsall,14.94,12.29,-2.65,age10yr_30-39,West Midlands
-E08000031,Wolverhampton,15.04,13.3,-1.74,age10yr_30-39,West Midlands
-E08000032,Bradford,14.57,13.88,-0.69,age10yr_30-39,Yorkshire and The Humber
-E08000033,Calderdale,15.7,12.75,-2.95,age10yr_30-39,Yorkshire and The Humber
-E08000034,Kirklees,15.25,13.08,-2.17,age10yr_30-39,Yorkshire and The Humber
-E08000035,Leeds,15.22,13.77,-1.45,age10yr_30-39,Yorkshire and The Humber
-E08000036,Wakefield,15.98,12.25,-3.73,age10yr_30-39,Yorkshire and The Humber
-E08000037,Gateshead,15.4,12.98,-2.42,age10yr_30-39,North East
-E09000001,City of London,20.29,19.23,-1.06,age10yr_30-39,London
-E09000002,Barking and Dagenham,16.75,16.0,-0.75,age10yr_30-39,London
-E09000003,Barnet,16.73,16.07,-0.66,age10yr_30-39,London
-E09000004,Bexley,16.03,12.7,-3.33,age10yr_30-39,London
-E09000005,Brent,18.1,17.52,-0.58,age10yr_30-39,London
-E09000006,Bromley,16.7,13.99,-2.71,age10yr_30-39,London
-E09000007,Camden,20.04,19.79,-0.25,age10yr_30-39,London
-E09000008,Croydon,17.53,15.23,-2.3,age10yr_30-39,London
-E09000009,Ealing,18.73,18.3,-0.43,age10yr_30-39,London
-E09000010,Enfield,17.26,14.83,-2.43,age10yr_30-39,London
-E09000011,Greenwich,17.63,18.25,0.62,age10yr_30-39,London
-E09000012,Hackney,20.3,20.88,0.58,age10yr_30-39,London
-E09000013,Hammersmith and Fulham,21.13,21.47,0.34,age10yr_30-39,London
-E09000014,Haringey,20.42,20.09,-0.33,age10yr_30-39,London
-E09000015,Harrow,16.12,15.36,-0.76,age10yr_30-39,London
-E09000016,Havering,14.66,12.32,-2.34,age10yr_30-39,London
-E09000017,Hillingdon,17.2,15.16,-2.04,age10yr_30-39,London
-E09000018,Hounslow,18.46,18.35,-0.11,age10yr_30-39,London
-E09000019,Islington,21.57,20.55,-1.02,age10yr_30-39,London
-E09000020,Kensington and Chelsea,20.61,20.64,0.03,age10yr_30-39,London
-E09000021,Kingston upon Thames,17.44,16.72,-0.72,age10yr_30-39,London
-E09000022,Lambeth,22.21,21.18,-1.03,age10yr_30-39,London
-E09000023,Lewisham,20.69,19.17,-1.52,age10yr_30-39,London
-E09000024,Merton,19.24,19.11,-0.13,age10yr_30-39,London
-E09000025,Newham,17.48,17.98,0.5,age10yr_30-39,London
-E09000026,Redbridge,15.97,15.98,0.01,age10yr_30-39,London
-E09000027,Richmond upon Thames,19.56,17.89,-1.67,age10yr_30-39,London
-E09000028,Southwark,20.98,19.98,-1.0,age10yr_30-39,London
-E09000029,Sutton,17.41,15.27,-2.14,age10yr_30-39,London
-E09000030,Tower Hamlets,17.81,21.47,3.66,age10yr_30-39,London
-E09000031,Waltham Forest,18.69,17.53,-1.16,age10yr_30-39,London
-E09000032,Wandsworth,21.69,23.21,1.52,age10yr_30-39,London
-E09000033,Westminster,20.42,21.6,1.18,age10yr_30-39,London
-W06000001,Isle of Anglesey,12.79,10.62,-2.17,age10yr_30-39,Wales
-W06000002,Gwynedd,12.69,10.5,-2.19,age10yr_30-39,Wales
-W06000003,Conwy,12.99,9.88,-3.11,age10yr_30-39,Wales
-W06000004,Denbighshire,13.45,10.51,-2.94,age10yr_30-39,Wales
-W06000005,Flintshire,15.63,11.87,-3.76,age10yr_30-39,Wales
-W06000006,Wrexham,14.94,12.63,-2.31,age10yr_30-39,Wales
-W06000008,Ceredigion,11.69,9.16,-2.53,age10yr_30-39,Wales
-W06000009,Pembrokeshire,12.69,9.92,-2.77,age10yr_30-39,Wales
-W06000010,Carmarthenshire,13.06,10.65,-2.41,age10yr_30-39,Wales
-W06000011,Swansea,13.57,12.18,-1.39,age10yr_30-39,Wales
-W06000012,Neath Port Talbot,14.09,12.05,-2.04,age10yr_30-39,Wales
-W06000013,Bridgend,15.19,12.55,-2.64,age10yr_30-39,Wales
-W06000014,Vale of Glamorgan,14.14,12.03,-2.11,age10yr_30-39,Wales
-W06000015,Cardiff,15.12,13.72,-1.4,age10yr_30-39,Wales
-W06000016,Rhondda Cynon Taff,14.52,12.27,-2.25,age10yr_30-39,Wales
-W06000018,Caerphilly,14.99,12.53,-2.46,age10yr_30-39,Wales
-W06000019,Blaenau Gwent,14.86,11.73,-3.13,age10yr_30-39,Wales
-W06000020,Torfaen,14.53,11.26,-3.27,age10yr_30-39,Wales
-W06000021,Monmouthshire,14.24,10.01,-4.23,age10yr_30-39,Wales
-W06000022,Newport,15.08,12.37,-2.71,age10yr_30-39,Wales
-W06000023,Powys,13.33,9.64,-3.69,age10yr_30-39,Wales
-W06000024,Merthyr Tydfil,14.76,11.61,-3.15,age10yr_30-39,Wales
+E06000001,Hartlepool,37.0,38.0,2.7,agemed_all,North East
+E06000002,Middlesbrough,36.0,37.0,2.78,agemed_all,North East
+E06000003,Redcar and Cleveland,38.0,40.0,5.26,agemed_all,North East
+E06000004,Stockton-on-Tees,37.0,38.0,2.7,agemed_all,North East
+E06000005,Darlington,38.0,39.0,2.63,agemed_all,North East
+E06000006,Halton,36.0,38.0,5.56,agemed_all,North West
+E06000007,Warrington,37.0,38.0,2.7,agemed_all,North West
+E06000008,Blackburn with Darwen,34.0,35.0,2.94,agemed_all,North West
+E06000009,Blackpool,40.0,40.0,0.0,agemed_all,North West
+E06000010,"Kingston upon Hull, City of",36.0,36.0,0.0,agemed_all,Yorkshire and The Humber
+E06000011,East Riding of Yorkshire,40.0,42.0,5.0,agemed_all,Yorkshire and The Humber
+E06000012,North East Lincolnshire,37.0,39.0,5.41,agemed_all,Yorkshire and The Humber
+E06000013,North Lincolnshire,38.0,39.0,2.63,agemed_all,Yorkshire and The Humber
+E06000014,York,38.0,38.0,0.0,agemed_all,Yorkshire and The Humber
+E06000015,Derby,37.0,36.0,-2.7,agemed_all,East Midlands
+E06000016,Leicester,34.0,34.0,0.0,agemed_all,East Midlands
+E06000017,Rutland,39.0,41.0,5.13,agemed_all,East Midlands
+E06000018,Nottingham,35.0,34.0,-2.86,agemed_all,East Midlands
+E06000019,"Herefordshire, County of",40.0,41.0,2.5,agemed_all,West Midlands
+E06000020,Telford and Wrekin,35.0,37.0,5.71,agemed_all,West Midlands
+E06000021,Stoke-on-Trent,37.0,37.0,0.0,agemed_all,West Midlands
+E06000022,Bath and North East Somerset,39.0,39.0,0.0,agemed_all,South West
+E06000023,"Bristol, City of",36.0,35.0,-2.78,agemed_all,South West
+E06000024,North Somerset,40.0,41.0,2.5,agemed_all,South West
+E06000025,South Gloucestershire,37.0,38.0,2.7,agemed_all,South West
+E06000026,Plymouth,37.0,38.0,2.7,agemed_all,South West
+E06000027,Torbay,42.0,42.0,0.0,agemed_all,South West
+E06000030,Swindon,36.0,37.0,2.78,agemed_all,South West
+E06000031,Peterborough,36.0,36.0,0.0,agemed_all,East
+E06000032,Luton,34.0,34.0,0.0,agemed_all,East
+E06000033,Southend-on-Sea,39.0,39.0,0.0,agemed_all,East
+E06000034,Thurrock,36.0,36.0,0.0,agemed_all,East
+E06000035,Medway,35.0,36.0,2.86,agemed_all,South East
+E06000036,Bracknell Forest,34.0,36.0,5.88,agemed_all,South East
+E06000037,West Berkshire,36.0,38.0,5.56,agemed_all,South East
+E06000038,Reading,35.0,34.0,-2.86,agemed_all,South East
+E06000039,Slough,34.0,32.0,-5.88,agemed_all,South East
+E06000040,Windsor and Maidenhead,38.0,38.0,0.0,agemed_all,South East
+E06000041,Wokingham,36.0,38.0,5.56,agemed_all,South East
+E06000042,Milton Keynes,34.0,35.0,2.94,agemed_all,South East
+E06000043,Brighton and Hove,38.0,36.0,-5.26,agemed_all,South East
+E06000044,Portsmouth,36.0,35.0,-2.78,agemed_all,South East
+E06000045,Southampton,36.0,35.0,-2.78,agemed_all,South East
+E06000046,Isle of Wight,42.0,43.0,2.38,agemed_all,South East
+E06000047,County Durham,38.0,40.0,5.26,agemed_all,North East
+E06000049,Cheshire East,39.0,40.0,2.56,agemed_all,North West
+E06000050,Cheshire West and Chester,38.0,40.0,5.26,agemed_all,North West
+E06000051,Shropshire,39.0,41.0,5.13,agemed_all,West Midlands
+E06000052,Cornwall,41.0,42.0,2.44,agemed_all,South West
+E06000053,Isles of Scilly,41.0,43.0,4.88,agemed_all,South West
+E06000054,Wiltshire,38.0,39.0,2.63,agemed_all,South West
+E06000055,Bedford,37.0,38.0,2.7,agemed_all,East
+E06000056,Central Bedfordshire,36.0,38.0,5.56,agemed_all,East
+E06000057,Northumberland,39.0,41.0,5.13,agemed_all,North East
+E06000058,"Bournemouth, Christchurch and Poole",41.0,40.0,-2.44,agemed_all,South West
+E06000059,Dorset,42.0,43.0,2.38,agemed_all,South West
+E06000060,Buckinghamshire,37.0,38.0,2.7,agemed_all,South East
+E07000008,Cambridge,35.0,35.0,0.0,agemed_all,East
+E07000009,East Cambridgeshire,38.0,39.0,2.63,agemed_all,East
+E07000010,Fenland,39.0,41.0,5.13,agemed_all,East
+E07000011,Huntingdonshire,36.0,38.0,5.56,agemed_all,East
+E07000012,South Cambridgeshire,38.0,39.0,2.63,agemed_all,East
+E07000026,Allerdale,40.0,42.0,5.0,agemed_all,North West
+E07000027,Barrow-in-Furness,38.0,40.0,5.26,agemed_all,North West
+E07000028,Carlisle,39.0,40.0,2.56,agemed_all,North West
+E07000029,Copeland,38.0,41.0,7.89,agemed_all,North West
+E07000030,Eden,40.0,42.0,5.0,agemed_all,North West
+E07000031,South Lakeland,42.0,44.0,4.76,agemed_all,North West
+E07000032,Amber Valley,39.0,40.0,2.56,agemed_all,East Midlands
+E07000033,Bolsover,39.0,39.0,0.0,agemed_all,East Midlands
+E07000034,Chesterfield,39.0,40.0,2.56,agemed_all,East Midlands
+E07000035,Derbyshire Dales,41.0,43.0,4.88,agemed_all,East Midlands
+E07000036,Erewash,38.0,39.0,2.63,agemed_all,East Midlands
+E07000037,High Peak,38.0,39.0,2.63,agemed_all,East Midlands
+E07000038,North East Derbyshire,40.0,42.0,5.0,agemed_all,East Midlands
+E07000039,South Derbyshire,37.0,38.0,2.7,agemed_all,East Midlands
+E07000040,East Devon,44.0,45.0,2.27,agemed_all,South West
+E07000041,Exeter,37.0,37.0,0.0,agemed_all,South West
+E07000042,Mid Devon,40.0,41.0,2.5,agemed_all,South West
+E07000043,North Devon,41.0,42.0,2.44,agemed_all,South West
+E07000044,South Hams,41.0,44.0,7.32,agemed_all,South West
+E07000045,Teignbridge,41.0,43.0,4.88,agemed_all,South West
+E07000046,Torridge,41.0,43.0,4.88,agemed_all,South West
+E07000047,West Devon,41.0,43.0,4.88,agemed_all,South West
+E07000061,Eastbourne,42.0,41.0,-2.38,agemed_all,South East
+E07000062,Hastings,38.0,39.0,2.63,agemed_all,South East
+E07000063,Lewes,41.0,42.0,2.44,agemed_all,South East
+E07000064,Rother,45.0,45.0,0.0,agemed_all,South East
+E07000065,Wealden,41.0,42.0,2.44,agemed_all,South East
+E07000066,Basildon,37.0,38.0,2.7,agemed_all,East
+E07000067,Braintree,37.0,38.0,2.7,agemed_all,East
+E07000068,Brentwood,39.0,40.0,2.56,agemed_all,East
+E07000069,Castle Point,39.0,42.0,7.69,agemed_all,East
+E07000070,Chelmsford,37.0,39.0,5.41,agemed_all,East
+E07000071,Colchester,37.0,38.0,2.7,agemed_all,East
+E07000072,Epping Forest,39.0,39.0,0.0,agemed_all,East
+E07000073,Harlow,36.0,37.0,2.78,agemed_all,East
+E07000074,Maldon,38.0,41.0,7.89,agemed_all,East
+E07000075,Rochford,39.0,41.0,5.13,agemed_all,East
+E07000076,Tendring,43.0,44.0,2.33,agemed_all,East
+E07000077,Uttlesford,38.0,39.0,2.63,agemed_all,East
+E07000078,Cheltenham,38.0,38.0,0.0,agemed_all,South West
+E07000079,Cotswold,40.0,42.0,5.0,agemed_all,South West
+E07000080,Forest of Dean,39.0,41.0,5.13,agemed_all,South West
+E07000081,Gloucester,36.0,37.0,2.78,agemed_all,South West
+E07000082,Stroud,39.0,41.0,5.13,agemed_all,South West
+E07000083,Tewkesbury,39.0,41.0,5.13,agemed_all,South West
+E07000084,Basingstoke and Deane,36.0,37.0,2.78,agemed_all,South East
+E07000085,East Hampshire,38.0,40.0,5.26,agemed_all,South East
+E07000086,Eastleigh,37.0,39.0,5.41,agemed_all,South East
+E07000087,Fareham,39.0,41.0,5.13,agemed_all,South East
+E07000088,Gosport,37.0,38.0,2.7,agemed_all,South East
+E07000089,Hart,37.0,38.0,2.7,agemed_all,South East
+E07000090,Havant,39.0,41.0,5.13,agemed_all,South East
+E07000091,New Forest,42.0,43.0,2.38,agemed_all,South East
+E07000092,Rushmoor,34.0,35.0,2.94,agemed_all,South East
+E07000093,Test Valley,38.0,40.0,5.26,agemed_all,South East
+E07000094,Winchester,39.0,39.0,0.0,agemed_all,South East
+E07000095,Broxbourne,37.0,38.0,2.7,agemed_all,East
+E07000096,Dacorum,37.0,38.0,2.7,agemed_all,East
+E07000098,Hertsmere,37.0,38.0,2.7,agemed_all,East
+E07000099,North Hertfordshire,38.0,39.0,2.63,agemed_all,East
+E07000102,Three Rivers,38.0,38.0,0.0,agemed_all,East
+E07000103,Watford,36.0,35.0,-2.78,agemed_all,East
+E07000105,Ashford,38.0,38.0,0.0,agemed_all,South East
+E07000106,Canterbury,39.0,39.0,0.0,agemed_all,South East
+E07000107,Dartford,36.0,36.0,0.0,agemed_all,South East
+E07000108,Dover,39.0,41.0,5.13,agemed_all,South East
+E07000109,Gravesham,37.0,37.0,0.0,agemed_all,South East
+E07000110,Maidstone,38.0,39.0,2.63,agemed_all,South East
+E07000111,Sevenoaks,39.0,40.0,2.56,agemed_all,South East
+E07000112,Folkestone and Hythe,40.0,41.0,2.5,agemed_all,South East
+E07000113,Swale,37.0,38.0,2.7,agemed_all,South East
+E07000114,Thanet,40.0,40.0,0.0,agemed_all,South East
+E07000115,Tonbridge and Malling,37.0,38.0,2.7,agemed_all,South East
+E07000116,Tunbridge Wells,38.0,38.0,0.0,agemed_all,South East
+E07000117,Burnley,36.0,38.0,5.56,agemed_all,North West
+E07000118,Chorley,38.0,39.0,2.63,agemed_all,North West
+E07000119,Fylde,42.0,43.0,2.38,agemed_all,North West
+E07000120,Hyndburn,36.0,37.0,2.78,agemed_all,North West
+E07000121,Lancaster,38.0,39.0,2.63,agemed_all,North West
+E07000122,Pendle,36.0,38.0,5.56,agemed_all,North West
+E07000123,Preston,36.0,36.0,0.0,agemed_all,North West
+E07000124,Ribble Valley,39.0,41.0,5.13,agemed_all,North West
+E07000125,Rossendale,36.0,38.0,5.56,agemed_all,North West
+E07000126,South Ribble,38.0,39.0,2.63,agemed_all,North West
+E07000127,West Lancashire,38.0,40.0,5.26,agemed_all,North West
+E07000128,Wyre,41.0,43.0,4.88,agemed_all,North West
+E07000129,Blaby,38.0,39.0,2.63,agemed_all,East Midlands
+E07000130,Charnwood,37.0,38.0,2.7,agemed_all,East Midlands
+E07000131,Harborough,38.0,40.0,5.26,agemed_all,East Midlands
+E07000132,Hinckley and Bosworth,39.0,40.0,2.56,agemed_all,East Midlands
+E07000133,Melton,38.0,40.0,5.26,agemed_all,East Midlands
+E07000134,North West Leicestershire,38.0,39.0,2.63,agemed_all,East Midlands
+E07000135,Oadby and Wigston,38.0,39.0,2.63,agemed_all,East Midlands
+E07000136,Boston,40.0,40.0,0.0,agemed_all,East Midlands
+E07000137,East Lindsey,42.0,44.0,4.76,agemed_all,East Midlands
+E07000138,Lincoln,36.0,36.0,0.0,agemed_all,East Midlands
+E07000139,North Kesteven,39.0,41.0,5.13,agemed_all,East Midlands
+E07000140,South Holland,41.0,42.0,2.44,agemed_all,East Midlands
+E07000141,South Kesteven,38.0,40.0,5.26,agemed_all,East Midlands
+E07000142,West Lindsey,40.0,42.0,5.0,agemed_all,East Midlands
+E07000143,Breckland,40.0,41.0,2.5,agemed_all,East
+E07000144,Broadland,40.0,42.0,5.0,agemed_all,East
+E07000145,Great Yarmouth,40.0,41.0,2.5,agemed_all,East
+E07000146,King's Lynn and West Norfolk,41.0,42.0,2.44,agemed_all,East
+E07000147,North Norfolk,44.0,46.0,4.55,agemed_all,East
+E07000148,Norwich,37.0,36.0,-2.7,agemed_all,East
+E07000149,South Norfolk,40.0,41.0,2.5,agemed_all,East
+E07000150,Corby,36.0,36.0,0.0,agemed_all,East Midlands
+E07000151,Daventry,37.0,39.0,5.41,agemed_all,East Midlands
+E07000152,East Northamptonshire,37.0,39.0,5.41,agemed_all,East Midlands
+E07000153,Kettering,38.0,38.0,0.0,agemed_all,East Midlands
+E07000154,Northampton,36.0,36.0,0.0,agemed_all,East Midlands
+E07000155,South Northamptonshire,37.0,39.0,5.41,agemed_all,East Midlands
+E07000156,Wellingborough,37.0,38.0,2.7,agemed_all,East Midlands
+E07000163,Craven,41.0,43.0,4.88,agemed_all,Yorkshire and The Humber
+E07000164,Hambleton,40.0,42.0,5.0,agemed_all,Yorkshire and The Humber
+E07000165,Harrogate,39.0,40.0,2.56,agemed_all,Yorkshire and The Humber
+E07000166,Richmondshire,37.0,39.0,5.41,agemed_all,Yorkshire and The Humber
+E07000167,Ryedale,41.0,43.0,4.88,agemed_all,Yorkshire and The Humber
+E07000168,Scarborough,41.0,43.0,4.88,agemed_all,Yorkshire and The Humber
+E07000169,Selby,38.0,39.0,2.63,agemed_all,Yorkshire and The Humber
+E07000170,Ashfield,38.0,39.0,2.63,agemed_all,East Midlands
+E07000171,Bassetlaw,38.0,40.0,5.26,agemed_all,East Midlands
+E07000172,Broxtowe,38.0,40.0,5.26,agemed_all,East Midlands
+E07000173,Gedling,39.0,40.0,2.56,agemed_all,East Midlands
+E07000174,Mansfield,38.0,39.0,2.63,agemed_all,East Midlands
+E07000175,Newark and Sherwood,39.0,40.0,2.56,agemed_all,East Midlands
+E07000176,Rushcliffe,38.0,40.0,5.26,agemed_all,East Midlands
+E07000177,Cherwell,36.0,37.0,2.78,agemed_all,South East
+E07000178,Oxford,35.0,33.0,-5.71,agemed_all,South East
+E07000179,South Oxfordshire,38.0,39.0,2.63,agemed_all,South East
+E07000180,Vale of White Horse,38.0,39.0,2.63,agemed_all,South East
+E07000181,West Oxfordshire,38.0,40.0,5.26,agemed_all,South East
+E07000187,Mendip,38.0,40.0,5.26,agemed_all,South West
+E07000188,Sedgemoor,40.0,41.0,2.5,agemed_all,South West
+E07000189,South Somerset,40.0,41.0,2.5,agemed_all,South West
+E07000192,Cannock Chase,36.0,38.0,5.56,agemed_all,West Midlands
+E07000193,East Staffordshire,37.0,38.0,2.7,agemed_all,West Midlands
+E07000194,Lichfield,39.0,41.0,5.13,agemed_all,West Midlands
+E07000195,Newcastle-under-Lyme,38.0,39.0,2.63,agemed_all,West Midlands
+E07000196,South Staffordshire,39.0,42.0,7.69,agemed_all,West Midlands
+E07000197,Stafford,39.0,40.0,2.56,agemed_all,West Midlands
+E07000198,Staffordshire Moorlands,40.0,42.0,5.0,agemed_all,West Midlands
+E07000199,Tamworth,35.0,37.0,5.71,agemed_all,West Midlands
+E07000200,Babergh,40.0,41.0,2.5,agemed_all,East
+E07000202,Ipswich,37.0,37.0,0.0,agemed_all,East
+E07000203,Mid Suffolk,39.0,41.0,5.13,agemed_all,East
+E07000207,Elmbridge,38.0,38.0,0.0,agemed_all,South East
+E07000208,Epsom and Ewell,39.0,38.0,-2.56,agemed_all,South East
+E07000209,Guildford,37.0,38.0,2.7,agemed_all,South East
+E07000210,Mole Valley,40.0,41.0,2.5,agemed_all,South East
+E07000211,Reigate and Banstead,38.0,38.0,0.0,agemed_all,South East
+E07000212,Runnymede,38.0,38.0,0.0,agemed_all,South East
+E07000213,Spelthorne,38.0,39.0,2.63,agemed_all,South East
+E07000214,Surrey Heath,37.0,39.0,5.41,agemed_all,South East
+E07000215,Tandridge,39.0,40.0,2.56,agemed_all,South East
+E07000216,Waverley,39.0,40.0,2.56,agemed_all,South East
+E07000217,Woking,37.0,37.0,0.0,agemed_all,South East
+E07000218,North Warwickshire,38.0,40.0,5.26,agemed_all,West Midlands
+E07000219,Nuneaton and Bedworth,37.0,38.0,2.7,agemed_all,West Midlands
+E07000220,Rugby,38.0,38.0,0.0,agemed_all,West Midlands
+E07000221,Stratford-on-Avon,40.0,42.0,5.0,agemed_all,West Midlands
+E07000222,Warwick,38.0,38.0,0.0,agemed_all,West Midlands
+E07000223,Adur,41.0,41.0,0.0,agemed_all,South East
+E07000224,Arun,43.0,44.0,2.33,agemed_all,South East
+E07000225,Chichester,42.0,43.0,2.38,agemed_all,South East
+E07000226,Crawley,36.0,36.0,0.0,agemed_all,South East
+E07000227,Horsham,38.0,40.0,5.26,agemed_all,South East
+E07000228,Mid Sussex,38.0,39.0,2.63,agemed_all,South East
+E07000229,Worthing,41.0,40.0,-2.44,agemed_all,South East
+E07000234,Bromsgrove,39.0,41.0,5.13,agemed_all,West Midlands
+E07000235,Malvern Hills,41.0,43.0,4.88,agemed_all,West Midlands
+E07000236,Redditch,36.0,37.0,2.78,agemed_all,West Midlands
+E07000237,Worcester,36.0,37.0,2.78,agemed_all,West Midlands
+E07000238,Wychavon,39.0,42.0,7.69,agemed_all,West Midlands
+E07000239,Wyre Forest,39.0,41.0,5.13,agemed_all,West Midlands
+E07000240,St Albans,37.0,37.0,0.0,agemed_all,East
+E07000241,Welwyn Hatfield,38.0,37.0,-2.63,agemed_all,East
+E07000242,East Hertfordshire,37.0,38.0,2.7,agemed_all,East
+E07000243,Stevenage,35.0,36.0,2.86,agemed_all,East
+E07000244,East Suffolk,41.0,42.0,2.44,agemed_all,East
+E07000245,West Suffolk,38.0,39.0,2.63,agemed_all,East
+E07000246,Somerset West and Taunton,41.0,42.0,2.44,agemed_all,South West
+E08000001,Bolton,37.0,37.0,0.0,agemed_all,North West
+E08000002,Bury,37.0,38.0,2.7,agemed_all,North West
+E08000003,Manchester,34.0,32.0,-5.88,agemed_all,North West
+E08000004,Oldham,36.0,36.0,0.0,agemed_all,North West
+E08000005,Rochdale,36.0,37.0,2.78,agemed_all,North West
+E08000006,Salford,37.0,36.0,-2.7,agemed_all,North West
+E08000007,Stockport,38.0,39.0,2.63,agemed_all,North West
+E08000008,Tameside,37.0,38.0,2.7,agemed_all,North West
+E08000009,Trafford,38.0,38.0,0.0,agemed_all,North West
+E08000010,Wigan,37.0,38.0,2.7,agemed_all,North West
+E08000011,Knowsley,36.0,38.0,5.56,agemed_all,North West
+E08000012,Liverpool,36.0,37.0,2.78,agemed_all,North West
+E08000013,St. Helens,38.0,39.0,2.63,agemed_all,North West
+E08000014,Sefton,39.0,41.0,5.13,agemed_all,North West
+E08000015,Wirral,39.0,40.0,2.56,agemed_all,North West
+E08000016,Barnsley,38.0,39.0,2.63,agemed_all,Yorkshire and The Humber
+E08000017,Doncaster,38.0,38.0,0.0,agemed_all,Yorkshire and The Humber
+E08000018,Rotherham,37.0,39.0,5.41,agemed_all,Yorkshire and The Humber
+E08000019,Sheffield,37.0,37.0,0.0,agemed_all,Yorkshire and The Humber
+E08000021,Newcastle upon Tyne,37.0,36.0,-2.7,agemed_all,North East
+E08000022,North Tyneside,39.0,39.0,0.0,agemed_all,North East
+E08000023,South Tyneside,38.0,40.0,5.26,agemed_all,North East
+E08000024,Sunderland,37.0,39.0,5.41,agemed_all,North East
+E08000025,Birmingham,35.0,34.0,-2.86,agemed_all,West Midlands
+E08000026,Coventry,36.0,36.0,0.0,agemed_all,West Midlands
+E08000027,Dudley,38.0,39.0,2.63,agemed_all,West Midlands
+E08000028,Sandwell,37.0,36.0,-2.7,agemed_all,West Midlands
+E08000029,Solihull,38.0,40.0,5.26,agemed_all,West Midlands
+E08000030,Walsall,37.0,37.0,0.0,agemed_all,West Midlands
+E08000031,Wolverhampton,37.0,37.0,0.0,agemed_all,West Midlands
+E08000032,Bradford,35.0,35.0,0.0,agemed_all,Yorkshire and The Humber
+E08000033,Calderdale,37.0,38.0,2.7,agemed_all,Yorkshire and The Humber
+E08000034,Kirklees,36.0,37.0,2.78,agemed_all,Yorkshire and The Humber
+E08000035,Leeds,37.0,36.0,-2.7,agemed_all,Yorkshire and The Humber
+E08000036,Wakefield,37.0,39.0,5.41,agemed_all,Yorkshire and The Humber
+E08000037,Gateshead,38.0,39.0,2.63,agemed_all,North East
+E09000001,City of London,39.0,40.0,2.56,agemed_all,London
+E09000002,Barking and Dagenham,35.0,32.0,-8.57,agemed_all,London
+E09000003,Barnet,36.0,36.0,0.0,agemed_all,London
+E09000004,Bexley,37.0,37.0,0.0,agemed_all,London
+E09000005,Brent,34.0,34.0,0.0,agemed_all,London
+E09000006,Bromley,38.0,38.0,0.0,agemed_all,London
+E09000007,Camden,34.0,35.0,2.94,agemed_all,London
+E09000008,Croydon,35.0,35.0,0.0,agemed_all,London
+E09000009,Ealing,35.0,34.0,-2.86,agemed_all,London
+E09000010,Enfield,36.0,35.0,-2.78,agemed_all,London
+E09000011,Greenwich,35.0,33.0,-5.71,agemed_all,London
+E09000012,Hackney,32.0,31.0,-3.12,agemed_all,London
+E09000013,Hammersmith and Fulham,34.0,34.0,0.0,agemed_all,London
+E09000014,Haringey,33.0,33.0,0.0,agemed_all,London
+E09000015,Harrow,36.0,36.0,0.0,agemed_all,London
+E09000016,Havering,38.0,39.0,2.63,agemed_all,London
+E09000017,Hillingdon,36.0,35.0,-2.78,agemed_all,London
+E09000018,Hounslow,34.0,34.0,0.0,agemed_all,London
+E09000019,Islington,34.0,33.0,-2.94,agemed_all,London
+E09000020,Kensington and Chelsea,37.0,37.0,0.0,agemed_all,London
+E09000021,Kingston upon Thames,36.0,36.0,0.0,agemed_all,London
+E09000022,Lambeth,33.0,33.0,0.0,agemed_all,London
+E09000023,Lewisham,34.0,33.0,-2.94,agemed_all,London
+E09000024,Merton,35.0,35.0,0.0,agemed_all,London
+E09000025,Newham,31.0,30.0,-3.23,agemed_all,London
+E09000026,Redbridge,36.0,34.0,-5.56,agemed_all,London
+E09000027,Richmond upon Thames,37.0,37.0,0.0,agemed_all,London
+E09000028,Southwark,33.0,33.0,0.0,agemed_all,London
+E09000029,Sutton,36.0,37.0,2.78,agemed_all,London
+E09000030,Tower Hamlets,31.0,30.0,-3.23,agemed_all,London
+E09000031,Waltham Forest,34.0,33.0,-2.94,agemed_all,London
+E09000032,Wandsworth,34.0,33.0,-2.94,agemed_all,London
+E09000033,Westminster,36.0,36.0,0.0,agemed_all,London
+W06000001,Isle of Anglesey,40.0,42.0,5.0,agemed_all,Wales
+W06000002,Gwynedd,39.0,40.0,2.56,agemed_all,Wales
+W06000003,Conwy,42.0,43.0,2.38,agemed_all,Wales
+W06000004,Denbighshire,40.0,41.0,2.5,agemed_all,Wales
+W06000005,Flintshire,38.0,39.0,2.63,agemed_all,Wales
+W06000006,Wrexham,38.0,38.0,0.0,agemed_all,Wales
+W06000008,Ceredigion,39.0,40.0,2.56,agemed_all,Wales
+W06000009,Pembrokeshire,40.0,41.0,2.5,agemed_all,Wales
+W06000010,Carmarthenshire,40.0,41.0,2.5,agemed_all,Wales
+W06000011,Swansea,39.0,39.0,0.0,agemed_all,Wales
+W06000012,Neath Port Talbot,39.0,40.0,2.56,agemed_all,Wales
+W06000013,Bridgend,38.0,39.0,2.63,agemed_all,Wales
+W06000014,Vale of Glamorgan,38.0,39.0,2.63,agemed_all,Wales
+W06000015,Cardiff,36.0,35.0,-2.78,agemed_all,Wales
+W06000016,Rhondda Cynon Taff,37.0,38.0,2.7,agemed_all,Wales
+W06000018,Caerphilly,37.0,38.0,2.7,agemed_all,Wales
+W06000019,Blaenau Gwent,38.0,39.0,2.63,agemed_all,Wales
+W06000020,Torfaen,38.0,39.0,2.63,agemed_all,Wales
+W06000021,Monmouthshire,39.0,41.0,5.13,agemed_all,Wales
+W06000022,Newport,37.0,37.0,0.0,agemed_all,Wales
+W06000023,Powys,40.0,42.0,5.0,agemed_all,Wales
+W06000024,Merthyr Tydfil,37.0,38.0,2.7,agemed_all,Wales
