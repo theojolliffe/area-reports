@@ -132,7 +132,7 @@
         <span class="text-change" class:increase="{place.data.population.value.change.all > 0}">{place.data.population.value.change.all}%</span>
         {#if quartiles}
 		<div class="chart">
-			<LineChart data={data} xKey="year" yKey="value" zKey="group" stacked={true} line={false} areaOpacity={1}/>
+			<LineChart data={data} xKey="year" yKey="value" zKey="group" mode="stacked" line={false} areaOpacity={1}/>
 		</div>
         {/if}
         {#if place.data.population.value_rank}

@@ -1,4 +1,16 @@
 export default{
+    'population_all': {
+        id: 2,
+        topic: "population",
+        topicLong: "resident population",
+        adjective: "populous",
+        synonym: "headcount",
+        verb: {
+            positive: "grow",
+            negative: "shrink",
+            },
+        alternative: "density",
+    },
     'density_all': {
         id: 2,
         topic: "population density",
@@ -20,22 +32,10 @@ export default{
         adjective: "old",
         synonym: "average age",
         verb: {
-            positive: "older",
-            negative: "younger",
+            positive: "shift",
+            negative: "shift",
             },
         alternative: "age10yr",
-    },
-    'population_all': {
-        id: 2,
-        topic: "population",
-        topicLong: "resident population",
-        adjective: "populous",
-        synonym: "headcount",
-        verb: {
-            positive: "grow",
-            negative: "shrink",
-            },
-        alternative: "density",
     },
     'health_good': {
         id: 1,
