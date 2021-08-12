@@ -8,7 +8,7 @@
 	import data from './data/example';
 
 	let options, selected, place, ew, quartiles;
-	let defLoc = 'Manchester';
+	let defaultLoc = 'Manchester';
 	// Data load functions
 	getData(urls.options).then(res => {
 		res.forEach(d => {
@@ -16,7 +16,7 @@
 			d.typenm = types[d.type].name;
 		});
 		options = res.sort((a, b) => a.name.localeCompare(b.name));
-		selected = options.find(d => d.name == defLoc);
+		selected = options.find(d => d.name == defaultLoc);
 		loadEW();
 		loadArea(selected.code)});
 
@@ -34,7 +34,6 @@
 					quartiles = quart;
 					place = json;
 					console.log("Place", place)
-					console.log("Ranks", place.Priorities)
 				});
 			} else {
 				quartiles = null;
@@ -52,7 +51,6 @@
 			ew = json;
 		})}
 
-	// 
 	// Create lists of topics and subjects that we want to weight against in the priority list
 	let topicList = ["agemed", "travel", "tenure", "density"] 
 	let subjectList = ["bus"] 
@@ -108,13 +106,15 @@
 	
 <div class="grid-2">
 	<div>
-		<span class="text-big">{place.name}</span><br/>
-		{#if place.parents[0]}
-		{types[place.type].name} in {place.parents[0].name}
-		{/if}
+		<div style="width: 440px; margin: 40px;">
+			<span class="text-big">{place.name}</span><br/>
+			{#if place.parents[0]}
+			{types[place.type].name} in {place.parents[0].name}
+			{/if}
+		</div>
 	</div>
 	<div>
-		<div style="width: 240px; float: right;">
+		<div style="width: 440px; float: right; margin: 80px;">
 		<Select {options} bind:selected group="typenm" search={true} on:select="{() => { if (selected) { loadArea(selected.code) }}}"/>
 		</div>
 	</div></div>
@@ -122,7 +122,7 @@
 
 <div class="section-2">
 	<div>
-		<Report place={place} dataSelect={priorities(place)} ew={ew} section=0></Report>
+		<Report place={place} priorities={priorities(place)} ew={ew} section=0></Report>
 	</div>
 	<div style="margin-top: 50px; margin-bottom: 50px; width: 80%">
         <span class="text-label">Population</span>
@@ -140,7 +140,7 @@
         {/if}</div>
 
 	<div>
-		<Report place={place} dataSelect={priorities(place)} ew={ew} section=1></Report>
+		<Report place={place} priorities={priorities(place)} ew={ew} section=1></Report>
 	</div>
 </div>
 
@@ -224,34 +224,6 @@
 	.chart {
 		width: 100%;
 	}
-	.map {
-		grid-column: span 2;
-		grid-row: span 2;
-		min-height: 350px;
-	}
-	@media screen and (max-width:575px){
-		.map {
-			grid-column: span 1;
-		}
-	}
-	.profile-grid {
-		display: grid;
-		width: 70%;
-		grid-gap: 20px 5%;
-		grid-template-columns: 50% 50%;
-		justify-content: stretch;
-		margin-left: auto;
-	    margin-right: auto;
-	}
-	ul {
-		list-style-image: url('data:image/svg+xml;base64,PHN2ZyBjbGFzcz0ibGF5ZXJjYWtlLWxheW91dC1zdmcgc3ZlbHRlLXU4NGQ4ZCIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8Y2lyY2xlIGN4PSI4IiBjeT0iOCIgcj0iOCIgZmlsbD0iIzIwNjA5NSIgc3Ryb2tlLXdpZHRoPSIwIi8+Cjwvc3ZnPgo=');
-		vertical-align: middle;
-	}
-	.profile-grid > div > p {
-		font-size: small;
-		text-align: justify;
-		padding: 5%;
-	}
 	.section-2 {
 		margin: auto;
 		width: 60%;
@@ -321,34 +293,6 @@
 		margin-right: 20px;
 		margin-bottom:  20px;
 	}
-	.map {
-		grid-column: span 2;
-		grid-row: span 2;
-		min-height: 350px;
-	}
-	@media screen and (max-width:575px){
-		.map {
-			grid-column: span 1;
-		}
-	}
-
-	.profile-grid {
-		display: grid;
-		width: 70%;
-		grid-gap: 20px 5%;
-		grid-template-columns: 50% 50%;
-		justify-content: stretch;
-		margin-left: auto;
-	    margin-right: auto;
-	}
-	ul {
-		list-style-image: url('data:image/svg+xml;base64,PHN2ZyBjbGFzcz0ibGF5ZXJjYWtlLWxheW91dC1zdmcgc3ZlbHRlLXU4NGQ4ZCIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8Y2lyY2xlIGN4PSI4IiBjeT0iOCIgcj0iOCIgZmlsbD0iIzIwNjA5NSIgc3Ryb2tlLXdpZHRoPSIwIi8+Cjwvc3ZnPgo=');
-		vertical-align: middle;
-	}
-	.profile-grid > div > p {
-		text-align: justify;
-		padding: 5%;
-	}
 	.section-2 {
 		margin: auto;
 		width: 60%;
@@ -357,17 +301,5 @@
 	}
 	.section-2 > div {
 		margin-top: 30px;
-	}
-	h1:first-letter, h3:first-letter, h4:first-letter {
-		text-transform: capitalize;
-	}
-	p:first-letter {
-		text-transform: capitalize;
-	}
-	.section-head:first-letter {
-		text-transform: capitalize
-	}
-	.section-head {
-		font-size:2.8rem
 	}
 	</style>

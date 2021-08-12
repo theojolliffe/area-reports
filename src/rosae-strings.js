@@ -24,7 +24,7 @@ mixin percSent
     | the proportion of #[+value(place.name)] #[+value(topic.topicLong)] increased by #[+value(percChange)] percentage points (pp)
 
 mixin absoSent
-    | the #[+value(topic.topicLong)] of the #[+value(gssShort[place.code.slice(0,3)])] of #[+value(place.name)] rose #[+value(percChange/100, {'FORMAT': '0.0%'})]
+    | the #[+value(topic.topicLong)] of #[+value(place.name)] rose #[+value(percChange/100, {'FORMAT': '0.0%'})]
 
 mixin accordingTo
     | , according to the 2021 census
