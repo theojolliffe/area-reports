@@ -23,10 +23,12 @@
 
     // Transform lad lookup csv to object and write gss lookup objects
     let ladType = {}; ladLookup.forEach(d => {ladType[d['Code']] = d['Subgroup code']});
-    let gssLookupShort = {"E09": "borough", "E08": "district", "E07": "district", "E06": "authority"}
-    let gssLookup = {"E09": "London borough", "E08": "metropolitan district", "E07": "non-metropolitan district", "E06": "unitary authority"}
+    let gssLookupShort = {"E09": "borough", "E08": "district", "E07": "district", "E06": "authority"};
+    let gssLookup = {"E09": "London borough", "E08": "metropolitan district", "E07": "non-metropolitan district", "E06": "unitary authority"};
 
     function results(place, priorities) {
+
+        console.log(priorities)
 
         let dataSelect = priorities[section] // Create variable selecting the priority rank for the given article section
         // Split selected label to get single selector tokens
