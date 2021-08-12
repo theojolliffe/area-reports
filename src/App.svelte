@@ -15,7 +15,6 @@
 	let vari = variableFilter.map(d => ({'year': +d[2011], 'group': (d['lad']=="Manchester")?"Manchester":(d['parent']=="North West")?d['parent']:"Rest of England and Wales"}));
 	console.log('variableFilter', vari)
 
-
 	let animation = true;
 
 	let options, selected, place, ew, quartiles;
@@ -142,7 +141,7 @@
 	<div>
 		<Report place={place} priorities={priorities(place)} ew={ew} section=0></Report>
 	</div>
-	<div style="margin-top: 50px; margin-bottom: 50px; width: 280%">
+	<div style="margin-top: 50px; margin-bottom: 50px; width: 80%">
         {#if quartiles}
 		<section>
 			<div class="grid">
@@ -186,6 +185,7 @@
 		display: flex;
 		-webkit-box-pack: center;
 		-ms-flex-pack: center;
+		justify-content: center;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
