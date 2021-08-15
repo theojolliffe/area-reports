@@ -39,8 +39,8 @@
         // Find out if area is first second, third or significantly higher
         function nationComp(place, breaks, natRank, selectors, verb) {
             verb = EnglishVerbs.getIngPart(VerbsData[verb], verb);
-            if (natRank<2) { return " is " + verb + " faster here than any other " + gssLookupShort[place.code.slice(0,3)] }
-            if (natRank<4) { return " the " + ordinal_suffix_of(Math.abs(natRank)) + " fastest " + verb + " of any " + gssLookupShort[place.code.slice(0,3)] }
+            if (natRank<2) { return " is " + verb + " faster here than in any other " + gssLookupShort[place.code.slice(0,3)] }
+            if (natRank<4) { return " the " + ordinal_suffix_of(Math.abs(natRank)) + " fastest-" + verb + " " + gssLookupShort[place.code.slice(0,3)] }
             else { return " is " + verb + " " + adjectify(place['data'][selectors[0]][selectors[1]+'_rank'][selectors[2]][selectors[3]], ['faster here', 'slower here'], breaks) + " the average" } }
 
         //  Finds one lower district within region
@@ -79,9 +79,12 @@
                 });
                 variableFilter.sort(function(a, b) {
                     return Math.abs(b['change']) - Math.abs(a['change']);
-                });            
-
-                return variableFilter[0].lad + " (+" + dec(variableFilter[0].change) + "%)" + (variableFilter[1]?" and " + variableFilter[1].lad  + " (+" + dec(variableFilter[0].change) + "%)" + " have":" has")
+                });  
+                if (variableFilter[1]) {
+                    return [variableFilter[0].lad + " (+" + dec(variableFilter[0].change) + "%)" + " and " + variableFilter[1].lad  + " (+" + dec(variableFilter[0].change) + "%)" + " have"]
+                } else {
+                    return [variableFilter[0].lad + " has", dec(variableFilter[0].change)]
+                }
             } else {
                 let variableFilter = variableChange.filter( item => {
                     return item["topic"] == selectors[0]+"_"+selectors[3];
@@ -90,7 +93,7 @@
                     return Math.abs(b['change']) - Math.abs(a['change']);
                 });
                 let index = variableFilter.map((item) => {return item['lad']}).indexOf(place.name)    
-                return variableFilter[index+1].lad + " (+" + dec(variableFilter[index+1].change) + (perc?"pp)":"%)") } }
+                return [variableFilter[index+1].lad + " (+" + dec(variableFilter[index+1].change) + (perc?"pp)":"%)")] } }
 
         //  Finds districts that have been overtaken by spotlight area
         function overTake(place, selectors) {
@@ -102,7 +105,8 @@
                         item["topic"] == selectors[0]+"_"+selectors[3]
             });
             if (variableFilter.length > 10) {
-                return variableFilter.length + " areas"
+                return variableFilter.length
+                // return variableFilter.length + " areas"
             } else if (variableFilter.length > 3) {
                 return variableFilter.length + " areas, including " + variableFilter[0].lad + " and " + variableFilter[1].lad 
             } else if (variableFilter.length == 3) {
@@ -196,7 +200,7 @@
                 subj: subj,
             },...(perc)? {
                 sig: sig(place, fracPerc(place, selectors)[1][1][0]).length>5?" (" + sig(place, fracPerc(place, selectors)[1][1][0]) + " average) ":"",
-                sig2: (fracPerc(place, selectors)[1][2])? sig(place, fracPerc(place, selectors)[1][2][0]).length>5?"; " + sig(place, fracPerc(place, selectors)[1][2][0]) + " average":"":"", 
+                sig2: (fracPerc(place, selectors)[1][2])? sig(place, fracPerc(place, selectors)[1][2][0]).length>5?", which is " + sig(place, fracPerc(place, selectors)[1][2][0]) + " the average across England and Wales":"":"", 
                 fracPerc: fracPerc(place, selectors),
 
             }:{}})

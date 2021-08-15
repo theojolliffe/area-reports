@@ -24,7 +24,7 @@ div.section-2 > div:nth-child(1) > p:nth-child(1) {
     font-weight: bold;
 }
 div.section-2 > div:nth-child(3) > p:nth-child(1) {
-	font-size: 1.8em
+	font-size: 1.5em
 }
 .chart-container {
 	height: 400px !important

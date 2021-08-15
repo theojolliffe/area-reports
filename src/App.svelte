@@ -7,18 +7,13 @@
 	import Report from './Report.svelte';
 	import variableChange from './data/populationChange.csv';
 
-
-	let variableFilter = variableChange.filter( item => {
-                return  item["topic"] == "population_all"
-            });
-	let pops = [];
+	let variableFilter = variableChange.filter( item => { return  item["topic"] == "population_all" });
 	let vari = variableFilter.map(d => ({'year': +d[2011], 'group': (d['lad']=="Manchester")?"Manchester":(d['parent']=="North West")?d['parent']:"Rest of England and Wales"}));
-	console.log('variableFilter', vari)
 
 	let animation = true;
 
 	let options, selected, place, ew, quartiles;
-	let defaultLoc = 'Manchester';
+	let defaultLoc = 'Fareham';
 	// Data load functions
 	getData(urls.options).then(res => {
 		res.forEach(d => {
@@ -83,8 +78,7 @@
 					place.Priorities[i].weight = place.Priorities[i].weight + 2;
 				} else { place.Priorities[i].weight = place.Priorities[i].weight }
 				dataSelect.push(place.Priorities[i])
-			}
-		}
+			} }
 
 		// Sort items by weight
 		dataSelect.sort(function(a, b) { if (a.weight < b.weight) return -1; if (a.weight > b.weight) return 1; return 0; });
@@ -141,21 +135,24 @@
 	<div>
 		<Report place={place} priorities={priorities(place)} ew={ew} section=0></Report>
 	</div>
-	<div style="margin-top: 50px; margin-bottom: 50px; width: 80%">
-        {#if quartiles}
+	<div style="margin-top: 50px; margin-bottom: 0px; width: 100%">
 		<section>
 			<div class="grid">
 				<div>
-					<ScatterChart data={vari} xKey="year" yKey={beeswarm.yKey ? "value" : null} zKey={beeswarm.zKey ? "group": null} rKey={beeswarm.rKey ? "alt" : null} r={[3, 6]} animation={animation} legend={beeswarm.zKey} title="Population distribution across all districts">
+					<ScatterChart data={vari} xKey="year" yKey={beeswarm.yKey ? "value" : null} zKey={beeswarm.zKey ? "group": null} rKey={beeswarm.rKey ? "alt" : null} r={[4, 6]} animation={animation} legend={beeswarm.zKey} title="Population across Manchester, North West and the rest of England and Wales, 2021">
 					</ScatterChart>
 				</div>
 			</div>
 		</section>
-        {/if}</div>
+		<p class="links" style="font-weight: bold;">Source: Office for National Statistics, 2011 census and Census 2021</p>
+		<p class="links" style="text-decoration: underline; color: #206095">Embed code</p>
+		<p class="links" style="text-decoration: underline; color: #206095">Download data</p>
+    </div>
 
 	<div>
 		<Report place={place} priorities={priorities(place)} ew={ew} section=1></Report>
-	</div></div>
+	</div><p class="links" style="text-decoration: underline; color: #206095">Get the data</p></div>
+
 
 {#if place.children[0]}
 <div class="grid mt">
@@ -179,13 +176,14 @@
 {/if}
 
 <style>
+	.links {
+		margin: 0px;
+		font-size: smaller;
+	}
 	section {
 		display: -webkit-box;
 		display: -ms-flexbox;
-		display: flex;
-		-webkit-box-pack: center;
 		-ms-flex-pack: center;
-		justify-content: center;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -199,9 +197,9 @@
 		margin: 0 16;
 	}
 	.grid {
-		display: grid;
+		display: block;
 		width: 100%;
-		max-width: 768px;
+		max-width: none;
 		margin: 0 16;
 		grid-gap: 30px;
 		grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));

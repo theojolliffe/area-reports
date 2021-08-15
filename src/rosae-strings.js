@@ -8,6 +8,8 @@ mixin headline
       | in #[+value(place.name)]
     else
       | Large rise in #[+value(place.name)] #[+value(topic.topic)]
+    if (section==0)
+      | since 2011 census
 | #[+headline]`,
     1: `
 mixin sigShift
@@ -47,41 +49,42 @@ mixin start1
     | The proportion of #[+value(topic.synonym)] 
 
 mixin start2
-    | #[+value(place.name)]'s #[+value(topic.topic)] is
+    | #[+value(place.name)]'s #[+value(topic.topic)] is the
 
 mixin middle 
     | #[+value(fasterSlower)] across England and Wales
 
-mixin Ord(rankArg) 
+mixin Ord(rankArg)
     if (rankArg>1)
-        | #[+value(rankArg, {'ORDINAL_TEXTUAL':true})] 
+        | #[+value(rankArg, {'ORDINAL_TEXTUAL':true})]
 
 mixin fastestGrowing
-    | and is the 
-    | #[+Ord(locRank)] 
-    | fastest growing in #[+value(parent)].
+    | #[+Ord(locRank)]
+    | fastest-growing in #[+value(parent)] and
 
 mixin topProt
     protect
-        | #[+value(top)]
+        | #[+value(top[0])]
 
 mixin nextFastestGrowing
-    | the next fastest growing is
+    | the next fastest-growing is
     | #[+topProt]
 
 mixin acrossAllTypes
-    | Across all #[+value(gssShort[place.code.slice(0,3)], {number:'P'})], only 
+    | Only 
     | #[+topProt]
-    | a faster growing #[+value(topic.topicLong)]
+    | a faster-growing #[+value(topic.topicLong)], with an increase of
+    if (top[1])
+      | #[+value((top[1])/100, {'FORMAT': '0.0%'} )]
 
 mixin printSentence
     if (perc)
         | #[+start1]
     if !(perc)
         | #[+start2]
-    | #[+middle]
     if (natRank!=1)
         | #[+fastestGrowing]
+    | #[+middle]
     | .
     if (natRank<4)
         if (natRank==1)
@@ -120,26 +123,35 @@ mixin Ord(rankArg)
         | #[+value(rankArg, {'ORDINAL_TEXTUAL':true})] 
 
 mixin third
-  | #[+tenYears]
-  | #[+placeType]
-  | overtook #[+value(overTake)] to become England and Wales' 
-  | #[+value(natRankTot, {'ORDINAL_NUMBER':true})] 
-  | most #[+value(topic.adjective)] 
-  | #[+outOf] . 
-  | #[+adject]
+  if (natRankTot>20) 
+    | Despite a considerable improvement in the health of Manchester's residents, the district remains less healthy than the average district within England and Wales.
+  else
+    | #[+tenYears]
+    | #[+placeType]
+    | overtook #[+value(overTake)] to become England and Wales' 
+    if (natRankTot<10)
+      protect
+        | #[+value(natRankTot, {'ORDINAL_TEXTUAL':true})]-most
+    else
+      protect
+        | #[+value(natRankTot, {'ORDINAL_NUMBER':true})]-most
+    | #[+value(topic.adjective)] 
+    | #[+outOf] . 
+    | #[+adject]
 
-| #[+third]`,
+| #[+third]
+`,
     4: `
 mixin fourth_1
-  | #[+value(place.name)] now has #[+value(place.data[selectors[0]].value['2011'][selectors[3]])] residents (#[+value((place.data[selectors[0]].perc['2011'][selectors[3]])/100, {'FORMAT': '0.0%'})]) #[+value(topic.topicMed)]—the #[+value(localRank11)] highest proportion in #[+value(parent)].
+  | #[+value(place.name)] now has #[+value(place.data[selectors[0]].value['2011'][selectors[3]])] residents (#[+value((place.data[selectors[0]].perc['2011'][selectors[3]])/100, {'FORMAT': '0.0%'})]) #[+value(topic.topicMed)], the #[+value(localRank11)] highest proportion in #[+value(parent)].
 
 mixin fourth_2
-  | During this period the #[+value(topic.topic)] grew by #[+value(place.data.population.value['2011'].all - place.data.population.value['2001'].all)]. The #[+value(gssShort[place.code.slice(0,3)])] now has #[+value(place.data.population.value['2011'].all)] residents, giving it the #[+value(localRank11)] largest #[+value(topic.synonym)] in #[+value(parent)].
+  | During this period, the #[+value(topic.topic)] went up by #[+value(place.data.population.value['2011'].all - place.data.population.value['2001'].all)]. The #[+value(gssShort[place.code.slice(0,3)])] now has #[+value(place.data.population.value['2011'].all)] residents, giving it the #[+value(localRank11)] greatest #[+value(topic.synonym)] in #[+value(parent)].
 
 mixin fourth_described1
   protect
     | #[+value(fracPerc[0])]
-  | respondents described their #[+value(topic.topic)] as #[+value(fracPerc[1][1][0])]#[+value(sig)] and 
+  | respondents described their #[+value(topic.topic)] as #[+value(fracPerc[1][1][0])]#[+value(sig)], and 
   | #[+value((fracPerc[1][2][1])/100, {'FORMAT': '0.0%'})]
   | reported
   | #[+value(fracPerc[1][2][0])] #[+value(topic.topic)] #[+value(sig2)].
@@ -175,12 +187,13 @@ mixin fiveA
   | #[+value(topic.topicMed)].
 
 mixin fifth_1
-  | After #[+value(place.name)], 
   | #[+value(oneLower.lad)] is the next most 
   | #[+value(topic.adjective)]
+  | #[+value(gssShort[place.code.slice(0,3)])]
+  | after #[+value(place.name)], 
   if (locRankTot==1) 
     | #[+value(gssShort[place.code.slice(0,3)])]  in #[+value(parent)] 
-  | , with #[+value((oneLower['2011'])/100, {'FORMAT': '0.0%'})] 
+  | with #[+value((oneLower['2011'])/100, {'FORMAT': '0.0%'})] 
   if (topic['desc']=='described')
     | of residents describing their #[+value(topic.topic)] as good.
   else
@@ -213,7 +226,9 @@ mixin sixth_1said
 
 mixin sixth_1described
   | Across England and Wales, 
-  | #[+value((ew.data[selectors[0]][selectors[1]]['2011'][selectors[3]])/100, {'FORMAT': '0.0%'})] of the population describe their 
+  | most of the population 
+  | (#[+value((ew.data[selectors[0]][selectors[1]]['2011'][selectors[3]])/100, {'FORMAT': '0.0%'})])
+  | describe their 
   | #[+value(topic.topic)] as 
   | #[+value(fracPerc[1][0][0])], 
   | #[+value((ew.data[selectors[0]][selectors[1]]['2011'][fracPerc[1][1][0]])/100, {'FORMAT': '0.0%'})] report 
@@ -224,13 +239,11 @@ mixin sixth_1described
   | #[+value(topic.topic)].
 
 mixin sixth_2
-  | #[+value(place.name)] has a 
-  | #[+value(topicLookup[topic['alternative']+subj]['topic'])] of 
-  | #[+value(place.data[topic['alternative']][selectors[1]]['2011']['all'], {'FORMAT': '0.0'})] 
-  | #[+value(topicLookup[topic['alternative']+subj]['topicLong'])], which is 
-  | #[+value(highLow)] the average across England and Wales; 
-  | #[+value(ew.data[topic['alternative']][selectors[1]]['2011']['all'], {'FORMAT': '0.0'})] 
-  | #[+value(topicLookup[topic['alternative']+subj]['topicLong'])].
+  | #[+value(place.name)]'s 
+  | #[+value(topicLookup[topic['alternative']+subj]['topic'])] 
+  | (#[+value(place.data[topic['alternative']][selectors[1]]['2011']['all'], {'FORMAT': '0.0'})] #[+value(topicLookup[topic['alternative']+subj]['topicLong'])])
+  | is #[+value(highLow)] the average across England and Wales 
+  | (#[+value(ew.data[topic['alternative']][selectors[1]]['2011']['all'], {'FORMAT': '0.0'})] #[+value(topicLookup[topic['alternative']+subj]['topicLong'])]).
 
 mixin sixth
   if (perc)
