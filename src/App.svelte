@@ -13,7 +13,7 @@
 	let animation = true;
 
 	let options, selected, place, ew, quartiles;
-	let defaultLoc = 'Fareham';
+	let defaultLoc = 'Manchester';
 	// Data load functions
 	getData(urls.options).then(res => {
 		res.forEach(d => {
