@@ -179,7 +179,7 @@ mixin fourth
 | #[+fourth]`,
     5: `
 mixin fiveA
-  | #[+value(place.name)] is behind #[+value(oneHigher[0].lad,)]—the 
+  | #[+value(place.name)] is behind #[+value(oneHigher[0].lad,)], the 
   if ((oneHigher[1]+1)>1)
     | #[+value((oneHigher[1]+1), {'ORDINAL_NUMBER':true})] 
   | most #[+value(topic.adjective)] #[+value(gssShort[place.code.slice(0,3)])] in #[+value(parent)] with 
