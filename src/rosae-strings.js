@@ -14,7 +14,7 @@ mixin headline
     1: `
 mixin sigShift
     if (section==1)
-        | The 2021 Census also appears to show a significant shift in the local population's #[+value(topic.theme)].
+        | The 2021 Census also show a significant shift in the local population's #[+value(topic.theme)].
 
 mixin sinceA
     | since 2011, 
@@ -23,7 +23,7 @@ mixin sinceB
     | in the ten years following 2011
 
 mixin percSent
-    | the proportion of #[+value(place.name)] #[+value(topic.topicLong)] increased by #[+value(percChange)] percentage points (pp)
+    | the percentage of #[+value(place.name)] #[+value(topic.topicLong)] increased by #[+value(percChange)] percentage points (pp)
 
 mixin absoSent
     | the #[+value(topic.topicLong)] of #[+value(place.name)] rose #[+value(percChange/100, {'FORMAT': '0.0%'})]
@@ -46,7 +46,7 @@ mixin printSentence
 | #[+printSentence]`,
     2: `
 mixin start1
-    | The proportion of #[+value(topic.synonym)] 
+    | The percentage of #[+value(topic.synonym)] 
 
 mixin start2
     | #[+value(place.name)]'s #[+value(topic.topic)] is the
