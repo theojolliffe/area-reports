@@ -73,9 +73,9 @@ mixin nextFastestGrowing
 mixin acrossAllTypes
     | Only 
     | #[+topProt]
-    | a faster-growing #[+value(topic.topicLong)], with an increase of
+    | a faster-growing #[+value(topic.topicLong)] (an increase of
     if (top[1])
-      | #[+value((top[1])/100, {'FORMAT': '0.0%'} )]
+      | #[+value((top[1])/100, {'FORMAT': '0.0%'} )])
 
 mixin printSentence
     if (perc)
