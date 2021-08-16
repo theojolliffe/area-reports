@@ -146,7 +146,7 @@ mixin fourth_1
   | #[+value(place.name)] now has #[+value(place.data[selectors[0]].value['2011'][selectors[3]])] residents (#[+value((place.data[selectors[0]].perc['2011'][selectors[3]])/100, {'FORMAT': '0.0%'})]) #[+value(topic.topicMed)], the #[+value(localRank11)] highest proportion in #[+value(parent)].
 
 mixin fourth_2
-  | During this period, the #[+value(topic.topic)] went up by #[+value(place.data.population.value['2011'].all - place.data.population.value['2001'].all)]. The #[+value(gssShort[place.code.slice(0,3)])] now has #[+value(place.data.population.value['2011'].all)] residents, giving it the #[+value(localRank11)] greatest #[+value(topic.synonym)] in #[+value(parent)].
+  | During this period, the #[+value(topic.topic)] grew by #[+value(place.data.population.value['2011'].all - place.data.population.value['2001'].all)]. The #[+value(gssShort[place.code.slice(0,3)])] now has #[+value(place.data.population.value['2011'].all)] residents, giving it the #[+value(localRank11)] greatest #[+value(topic.synonym)] in #[+value(parent)].
 
 mixin fourth_described1
   protect
