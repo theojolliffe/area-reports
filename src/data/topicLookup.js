@@ -3,7 +3,7 @@ export default{
         id: 2,
         topic: "population",
         topicLong: "resident population",
-        adjective: "populous",
+        adjective: "populated",
         synonym: "headcount",
         verb: {
             positive: "grow",
